@@ -2,9 +2,9 @@
 
 This Wrapper can be used to easily implement the Drilled generator API into your client
 
-![https://www.oracle.com/java/technologies/downloads/#java8](https://img.shields.io/badge/java-8%2B-blue)
-![https://github.com/moon-client/drilled-api/releases/tag/1.0.0](https://img.shields.io/badge/version-1.0.0-yellowgreen)
-![https://github.com/moon-client/drilled-api/blob/master/LICENSE.md](https://img.shields.io/github/license/moon-client/drilled-api)
+[![Java 8](https://img.shields.io/badge/java-8%2B-blue)](https://www.oracle.com/java/technologies/downloads/#java8)
+[![Release](https://img.shields.io/badge/version-1.0.0-yellowgreen)](https://github.com/moon-client/drilled-api/releases/tag/1.0.0)
+[![License](https://img.shields.io/github/license/moon-client/drilled-api)](https://github.com/moon-client/drilled-api/blob/master/LICENSE.md)
 
 ## Requirements
 
