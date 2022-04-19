@@ -21,11 +21,13 @@ import com.moon.drilled.DrilledApiFactory;
 // Basic generator implementation
 Generator generator = DrilledApiFactory.createGenerator("your api key");
 // Asynchronous version of the generator
-AsynchronousGenerator = DrilledApiFactory.createAsyncGenerator("your api key");
+AsynchronousGenerator asyncGenerator = DrilledApiFactory.createAsyncGenerator("your api key");
 ```
+
 The usage of the so called `Generator` should be straight forward and easy to understand<br>
 We do not provide **any** support on the api / how to implement it fully, only for actual issues which need to be fixed
 
 ## License
+
 Copyright (c) 2022 Moon Client<br>
 This project uses the MIT License
