@@ -1,6 +1,6 @@
 # Drilled Alts Wrapper (Java)
 
-This Wrapper can be used to easily implement the [Drilled Generator API](https://drilledalts.xyz) into your client
+This Wrapper can be used to easily implement the [Drilled Generator API](http://drilledalts.xyz) into your client
 
 [![Java 8](https://img.shields.io/badge/java-8%2B-blue)](https://www.oracle.com/java/technologies/downloads/#java8)
 [![Release](https://img.shields.io/badge/version-1.0.0-yellowgreen)](https://github.com/moon-client/drilled-api/releases/tag/1.0.0)
