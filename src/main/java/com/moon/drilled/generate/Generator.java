@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.moon.drilled.DrilledException;
 import com.moon.drilled.struct.Account;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,6 +21,7 @@ public class Generator {
     this.apiKey = apiKey;
   }
 
+  @Nullable
   public Account generate() {
     try {
       String response = request(DRILLED_API_URL + apiKey);
@@ -28,7 +31,7 @@ public class Generator {
     }
   }
 
-  private String request(String url) throws IOException {
+  private String request(@NotNull String url) throws IOException {
     URLConnection connection = new URL(url).openConnection();
     InputStream stream = connection.getInputStream();
 
